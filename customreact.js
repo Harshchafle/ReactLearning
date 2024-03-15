@@ -1,11 +1,11 @@
 
-function customRender(reactElement,container){
+function customRender(reactElement,container){                         // function to render and create new element
     /*const domElement = document.createElement(reactElement.type);
-    domElement.innerHTML = reactElement.children;
-    domElement.setAttribute('href',reactElement.props.href);
+    domElement.innerHTML = reactElement.children;                      // adding HTML inside element
+    domElement.setAttribute('href',reactElement.props.href);           // adding attributes
     domElement.setAttribute('target',reactElement.props.target);
 
-    container.appendChild(domElement)
+    container.appendChild(domElement)                                  // appendChild method
     */
 
     // const domElement = document.createElement(reactElement.type)
@@ -42,3 +42,4 @@ reactDOM.createRoot(document.getElementById('root')).render(reactElement)
 // const mainContainer = document.getElementById('#root');
 
 // customRender(reactElement,mainContainer);
+
