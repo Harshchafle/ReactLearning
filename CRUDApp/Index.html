@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basic CRUD</title>
+    <style>
+        .centre{
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        .btn{
+            padding: 20px;
+            background-color: rgb(102, 181, 33);
+            width: 50%;
+        }
+        
+    </style>
+</head>
+<body style="background-color: black;">
+    <img id="bulb" class="centre" src="images/off.png" alt="">
+    <button id="toggle-btn" class="centre btn">TURN ON</button>
+
+    <script>
+        let btn = document.getElementById('toggle-btn')
+        let bulb = document.getElementById('bulb')
+        btn.addEventListener('click', toggleBulb)
+
+        function toggleIcon(e){
+            bulb.src="images/on.png"
+        }
+    </script>
+</body>
+</html>
