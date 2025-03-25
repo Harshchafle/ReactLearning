@@ -1,0 +1,69 @@
+h1{
+    font-weight: 1000;
+}
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+    text-decoration: underline;
+}
+
+.AddTodo {
+    margin-bottom: 20px;
+}
+
+.AddTodo input,
+.AddTodo button {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin: 5px;
+}
+
+.AddTodo input[type="text"] {
+    width: 100%;
+}
+
+.AddTodo button {
+    background-color: #28a745;
+    color: #fff;
+    cursor: pointer;
+}
+
+.AddTodo button:hover {
+    background-color: #218c3d;
+}
+
+.TodoItem {
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 10px;
+}
+
+.TodoItem .row {
+    margin-bottom: 5px;
+}
+
+.TodoItem button {
+    background-color: #dc3545;
+    color: #fff;
+    cursor: pointer;
+}
+
+.TodoItem button:hover {
+    background-color: #c8233c;
+}
